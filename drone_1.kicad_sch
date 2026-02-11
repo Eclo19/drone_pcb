@@ -1,0 +1,442 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0560f2c5-3630-4def-8cec-cc4e8cbf7b9e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 35.56 35.56)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02d9e899-a94f-4c6c-a78f-147d692afed1")
+		(property "Sheetname" "STM32"
+			(at 35.56 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 35.56 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 35.56)
+		(size 29.21 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06272b5e-a47b-49c1-a894-dddfc285a124")
+		(property "Sheetname" "PWM_PPM"
+			(at 165.1 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/pwm_ppm_labelled.kicad_sch"
+			(at 165.1 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 121.92)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0fec55c5-b80f-4acb-9535-97621e647a45")
+		(property "Sheetname" "Main Power"
+			(at 35.56 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/power_labelled.kicad_sch"
+			(at 35.56 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 142.24)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1657650c-ed28-4fda-8ece-5b314619ab94")
+		(property "Sheetname" "LEDs"
+			(at 35.56 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/leds_labelled.kicad_sch"
+			(at 35.56 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 101.6)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1957dbc3-57e8-4b18-be9b-cb231c25d2f4")
+		(property "Sheetname" "Sensors"
+			(at 35.56 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/sensors_labelled.kicad_sch"
+			(at 35.56 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 57.15)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32c83f4b-57a5-462e-90e6-8e3a523f60f3")
+		(property "Sheetname" "SD"
+			(at 35.56 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/SD_USB_labelled.kicad_sch"
+			(at 35.56 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "`" ""
+			(at 35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 166.37)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bdbcbb5-7ae8-453d-b862-6b49905da3a0")
+		(property "Sheetname" "STM32_IO"
+			(at 35.56 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/IO_FMU3_REV_C.kicad_sch"
+			(at 35.56 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 78.74)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81430f79-d58c-4971-a602-f0695f82c002")
+		(property "Sheetname" "Serial"
+			(at 35.56 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/serial_labelled.kicad_sch"
+			(at 35.56 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 76.2)
+		(size 27.94 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac07a111-c9aa-4164-8952-34389540d98a")
+		(property "Sheetname" "IO_Power"
+			(at 165.1 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/io_power_labelled.kicad_sch"
+			(at 165.1 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 55.88)
+		(size 29.21 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3d434f3-be79-4e2f-8112-4fca0615870f")
+		(property "Sheetname" "80_PIN"
+			(at 165.1 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/ericoliviera/Desktop/VAK/Loam/Drone Board/Labelled_Schematics/80_pin_labelled.kicad_sch"
+			(at 165.1 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drone_1"
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
