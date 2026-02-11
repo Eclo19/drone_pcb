@@ -1,0 +1,10852 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1")
+	(paper "A4")
+	(title_block
+		(title "Pixhawk_mini_8L.sch")
+		(date "18/08/2014 1:53:23 PM")
+	)
+	(lib_symbols
+		(symbol "IO_FMU3_REV_C-altium-import:GND_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 220 OHM 1/16W 1% 0402 SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-RES*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_RESISTOR0402-RES_pixhawk2.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pixhawk2:root_0_STM32F10XCXT6_pixhawk2.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TQFP48*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy -2.54 10.16) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -12.7) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_2_0"
+				(polyline
+					(pts
+						(xy -2.54 12.7) (xy 7.62 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy -2.54 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 5.08)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_3_0"
+				(polyline
+					(pts
+						(xy -5.08 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 12.7) (xy -5.08 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_4_0"
+				(polyline
+					(pts
+						(xy -5.08 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy -5.08 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -12.7) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 5.08)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_5_0"
+				(polyline
+					(pts
+						(xy -5.08 17.78) (xy 5.08 17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -17.78) (xy -5.08 17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -17.78) (xy -5.08 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 15.24 0)
+					(length 5.08)
+					(name "VDD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 10.16 0)
+					(length 5.08)
+					(name "VDD_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "VDD_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -15.24 0)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_6_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_7_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "PD0/OSC<="
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "PD1/OSC=>"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_8_0"
+				(polyline
+					(pts
+						(xy -5.08 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_STM32F10XCXT6_pixhawk2.SCHLIB_9_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pixhawk2:root_0_mirrored_CAP0402_pixhawk2.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 8PF 50V C0G 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-CAP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_CAP0402_pixhawk2.IntLib_1_0"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 2.032)
+					(end -2.032 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 1.016)
+					(end -2.032 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pixhawk2:root_0_mirrored_OSCILLATOR-3.2X2.5_pixhawk2.SCHLIB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CRYSTAL 24MHZ 8PF SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*OSCILLATOR-3.2X2.5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_OSCILLATOR-3.2X2.5_pixhawk2.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 3.81) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_emitter line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pixhawk2:root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TQFP48*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -12.7) (xy 2.54 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 10.16) (xy -7.62 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -12.7) (xy 2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_2_0"
+				(polyline
+					(pts
+						(xy -7.62 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 12.7) (xy -7.62 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 2.54 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 5.08)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_3_0"
+				(polyline
+					(pts
+						(xy -5.08 12.7) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -10.16) (xy -5.08 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 5.08)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_4_0"
+				(polyline
+					(pts
+						(xy -5.08 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -12.7) (xy -5.08 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -12.7) (xy -5.08 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_5_0"
+				(polyline
+					(pts
+						(xy -5.08 -17.78) (xy 5.08 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 17.78) (xy -5.08 17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -17.78) (xy 5.08 17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 10.16 15.24 180)
+					(length 5.08)
+					(name "VDD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "VDD_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "VDD_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -10.16 180)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -15.24 180)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_6_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_7_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "PD0/OSC<="
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "PD1/OSC=>"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_8_0"
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB_9_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pixhawk2:root_2_CAP0402_pixhawk2.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-CAP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_CAP0402_pixhawk2.IntLib_1_0"
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 -0.508)
+					(end -2.032 -1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 -1.524)
+					(end -2.032 -2.032)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pixhawk2:root_3_RESISTOR0402-RES_pixhawk2.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 10K OHM 1/16W 1% 0402 SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-RES*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_RESISTOR0402-RES_pixhawk2.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy 1.016 2.159)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.254) (xy 1.016 0.889)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.286) (xy 1.016 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.016 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.159) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.889) (xy -1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.381) (xy -1.016 0.254)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.651) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_0_RESISTOR0402-RES_pixhawk2.IntLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 10K OHM 1/16W 1% 0402 SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-RES*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_RESISTOR0402-RES_pixhawk2.IntLib_1_1_0"
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_0_mirrored_CAP0402_pixhawk2.IntLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-CAP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_CAP0402_pixhawk2.IntLib_1_1_0"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 2.032)
+					(end -2.032 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 1.016)
+					(end -2.032 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_0_mirrored_CAP0402_pixhawk2.IntLib_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-CAP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_CAP0402_pixhawk2.IntLib_2_1_0"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 2.032)
+					(end -2.032 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 1.016)
+					(end -2.032 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_0_mirrored_CAP0402_pixhawk2.IntLib_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402-CAP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_mirrored_CAP0402_pixhawk2.IntLib_3_1_0"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 2.032)
+					(end -2.032 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.032 1.016)
+					(end -2.032 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Routed to FMU for debug purposes"
+		(exclude_from_sim no)
+		(at 68.58 65.2272 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "08176001-e78b-40ca-8f2b-def370be428b")
+	)
+	(text "PixHawk 1:PC14  Floating\n         PC15 Floating\n\nPixHawk 2:PC14 3.3v\n         PC15 GND"
+		(exclude_from_sim no)
+		(at 121.92 128.7272 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "24af3794-1f15-4811-b0de-790cdbf66f71")
+	)
+	(text "Timer allocation:\nPA0: TIM2_CH1: IO-CH1\nPA1: TIM2_CH2: IO-CH2\nPB8: TIM4_CH3: IO-CH3\nPB9: TIM4_CH4: IO-CH4\nPA6: TIM3_CH1: IO-CH5\nPA7: TIM3_CH2: IO-CH6\nPB0: TIM3_CH3: IO-CH7\nPB1: TIM3_CH4: IO-CH8\nPA8: TIM1_CH1: PPM_IN\nPA11: TIM1_CH4: RSSI_IN"
+		(exclude_from_sim no)
+		(at 96.52 166.8272 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ee17eca-8a49-493f-97c2-5063cc1341a6")
+	)
+	(text "HARDWARE BIT 0"
+		(exclude_from_sim no)
+		(at 45.72 146.5072 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "480ded8a-99c6-40bd-aa54-90257c50d542")
+	)
+	(text "HARDWARE BIT 1"
+		(exclude_from_sim no)
+		(at 45.72 154.1272 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "70104c75-ce11-4252-867f-c87011cfb953")
+	)
+	(text "http://creativecommons.org/licenses/by-sa/3.0/"
+		(exclude_from_sim no)
+		(at 33.02 187.1472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8d87398-17e5-4cd5-b1ad-52aa92ed3894")
+	)
+	(text "http://www.oshwa.org/"
+		(exclude_from_sim no)
+		(at 33.02 182.0672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dba7f572-6771-4c5e-a7b6-95d96304b740")
+	)
+	(junction
+		(at 220.98 113.4872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "115df00f-3e0a-4183-b8e4-7ff5ded0208d")
+	)
+	(junction
+		(at 233.68 88.0872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "157efb2f-3f3b-4ae7-92c8-da90d0f8705e")
+	)
+	(junction
+		(at 220.98 100.7872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b1c3ddf-9a4c-4c43-8fa9-bbaef2c397a3")
+	)
+	(junction
+		(at 241.3 141.4272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21d46b1b-de21-4bf7-8b05-3276c9527b66")
+	)
+	(junction
+		(at 193.04 116.0272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a3c4a3e-05d5-4355-b4a2-e3dfaebab204")
+	)
+	(junction
+		(at 226.06 62.6872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ef3af25-c282-4299-a485-dd8abaf69603")
+	)
+	(junction
+		(at 213.36 57.6072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43c7d5a4-857d-4a17-b7a7-89deeefa0692")
+	)
+	(junction
+		(at 223.52 146.5072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a071997-76bb-44bd-a25e-65bfac778457")
+	)
+	(junction
+		(at 226.06 67.7672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b5d9112-edb4-4362-a997-d199db8dc31e")
+	)
+	(junction
+		(at 205.74 57.6072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669cfbbd-619b-417d-989a-e3dcda1d1903")
+	)
+	(junction
+		(at 213.36 62.6872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77b3238e-f59d-4016-928f-f0a0cc77ef20")
+	)
+	(junction
+		(at 233.68 83.0072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9060641d-3ada-4447-b20a-ba45c24e32f5")
+	)
+	(junction
+		(at 63.5 37.2872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa1201a-6cbc-4662-815a-60a651b5f294")
+	)
+	(junction
+		(at 220.98 126.1872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0d80abc-bc04-4a31-997c-a7638b5dd173")
+	)
+	(no_connect
+		(at 236.22 57.6072)
+		(uuid "365933e5-ef61-4bb2-b746-5313af47c002")
+	)
+	(no_connect
+		(at 236.22 77.9272)
+		(uuid "7c34512b-6af4-4936-9e93-4eb89abbd577")
+	)
+	(no_connect
+		(at 236.22 62.6872)
+		(uuid "cbe94b81-7688-4b86-85a3-331bd7457838")
+	)
+	(no_connect
+		(at 236.22 88.0872)
+		(uuid "cf1aba33-9a1c-4db9-ba89-93a00e8bf3c1")
+	)
+	(no_connect
+		(at 236.22 83.0072)
+		(uuid "da007250-a5c6-4d7d-b5a8-19325d528972")
+	)
+	(no_connect
+		(at 236.22 67.7672)
+		(uuid "e4aa35a1-f447-4391-8158-cb6df5b6826f")
+	)
+	(wire
+		(pts
+			(xy 220.98 113.4872) (xy 228.6 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a7435a-104d-4885-a370-1472fe8beb66")
+	)
+	(wire
+		(pts
+			(xy 241.3 141.4272) (xy 248.92 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041ba1c7-bc22-434b-9661-989be1ae1e5d")
+	)
+	(wire
+		(pts
+			(xy 231.14 34.7472) (xy 236.22 34.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0480df97-1d1d-4fa8-a53b-ef3e2f67039e")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.4672) (xy 45.72 80.4672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096cb8b2-99b7-4291-90e9-09a8c2c39e1c")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.0272) (xy 193.04 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ddda85-6475-471b-a982-93de78527329")
+	)
+	(wire
+		(pts
+			(xy 233.68 88.0872) (xy 233.68 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cebbdde-6d5a-4309-821f-53f7f04abb65")
+	)
+	(wire
+		(pts
+			(xy 81.28 128.7272) (xy 83.82 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e112c4e-bfa1-4850-b943-59e48d4b30d2")
+	)
+	(wire
+		(pts
+			(xy 38.1 90.6272) (xy 45.72 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10bd5c0f-162a-495d-8036-443ebe104438")
+	)
+	(wire
+		(pts
+			(xy 38.1 121.1072) (xy 45.72 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11577468-d4c3-4634-b82a-600860861f3d")
+	)
+	(wire
+		(pts
+			(xy 38.1 47.4472) (xy 45.72 47.4472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ba7e69-60c0-4b9d-b694-d8dc01024942")
+	)
+	(wire
+		(pts
+			(xy 38.1 151.5872) (xy 45.72 151.5872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126c7236-dd51-45e7-bb72-6feefd5ffd15")
+	)
+	(wire
+		(pts
+			(xy 213.36 67.7672) (xy 213.36 62.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1945300c-f577-444f-97ef-fbcf21714099")
+	)
+	(wire
+		(pts
+			(xy 213.36 62.6872) (xy 226.06 62.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225bc5d9-b754-409e-89ab-80bbff85b5b4")
+	)
+	(wire
+		(pts
+			(xy 114.3 34.7472) (xy 116.84 34.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235101f8-978c-49f5-b772-413a669c0a58")
+	)
+	(wire
+		(pts
+			(xy 220.98 113.4872) (xy 220.98 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277a2197-cb32-4f2e-8a6a-56a508787c47")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.7872) (xy 45.72 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283cad5b-a0ca-46ca-a0c3-07dc50b22df1")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.8272) (xy 63.5 39.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b13b159-ad6a-4e56-bd39-1bf33eb89565")
+	)
+	(wire
+		(pts
+			(xy 38.1 70.3072) (xy 104.14 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32957ca1-e66f-4e7c-a89c-bbb53b9cf1be")
+	)
+	(wire
+		(pts
+			(xy 38.1 65.2272) (xy 45.72 65.2272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341369a0-e064-4d7f-9c7c-26d1e31465e9")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.8672) (xy 205.74 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3492bcde-5806-4f34-9483-59ebcc48b0bb")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.9872) (xy 45.72 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362173f5-6e33-4710-8680-cbf96361f513")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.7072) (xy 76.2 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3899d020-9ead-4069-8cee-acd44ba99598")
+	)
+	(polyline
+		(pts
+			(xy 157.48 141.4272) (xy 114.3 141.4272)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "391b7a4f-705e-487e-a8b3-2b06bb6095af")
+	)
+	(polyline
+		(pts
+			(xy 114.3 141.4272) (xy 114.3 123.6472)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "398e306e-7f42-4f85-84bf-95a331da8d9c")
+	)
+	(wire
+		(pts
+			(xy 220.98 116.0272) (xy 220.98 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed9c9ce-3fec-413f-a480-0652493f0fb1")
+	)
+	(wire
+		(pts
+			(xy 38.1 37.2872) (xy 45.72 37.2872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f510567-1170-47b0-90c4-c6be802d2107")
+	)
+	(wire
+		(pts
+			(xy 205.74 67.7672) (xy 205.74 57.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e8266a-8fc0-4440-862e-f2cf7fe1b837")
+	)
+	(wire
+		(pts
+			(xy 233.68 88.0872) (xy 236.22 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428add0e-6529-4eae-b218-c1c86ac10006")
+	)
+	(wire
+		(pts
+			(xy 228.6 118.5672) (xy 228.6 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e5c0e7-1426-4eb5-9dc5-651ae6f90832")
+	)
+	(wire
+		(pts
+			(xy 205.74 57.6072) (xy 213.36 57.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f5e97e-d016-44e9-acc5-ed483900a1ac")
+	)
+	(wire
+		(pts
+			(xy 38.1 108.4072) (xy 63.5 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478e087b-abd5-4708-9735-7f431838e34b")
+	)
+	(wire
+		(pts
+			(xy 63.5 39.8272) (xy 63.5 37.2872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d618ffa-bdef-4e80-8329-582f73a2a4d5")
+	)
+	(wire
+		(pts
+			(xy 220.98 146.5072) (xy 223.52 146.5072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5ccb9b-a712-4b6a-af0f-5c544f04f28e")
+	)
+	(wire
+		(pts
+			(xy 38.1 136.3472) (xy 45.72 136.3472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f722a64-124a-4a60-9100-eb09bcf70ade")
+	)
+	(wire
+		(pts
+			(xy 63.5 37.2872) (xy 63.5 34.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d64b3a-51c2-4099-a32d-06e6381b3f9d")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.7472) (xy 116.84 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dc9a8c-4226-4f2a-8db6-e9fe13103a87")
+	)
+	(wire
+		(pts
+			(xy 73.66 108.4072) (xy 83.82 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e3d15c-c1fc-4fae-9635-06e67d09f967")
+	)
+	(wire
+		(pts
+			(xy 38.1 105.8672) (xy 53.34 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5996d1f0-1452-4650-b84b-d369a60130e6")
+	)
+	(wire
+		(pts
+			(xy 38.1 34.7472) (xy 45.72 34.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0d50ae-465b-4d31-bb48-096fde7dd32a")
+	)
+	(wire
+		(pts
+			(xy 193.04 126.1872) (xy 193.04 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0b1fdd-7cee-4e6b-a8e9-bafc45f43b6d")
+	)
+	(wire
+		(pts
+			(xy 213.36 62.6872) (xy 213.36 57.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f865775-e349-484c-985c-f1a4a5dfd225")
+	)
+	(wire
+		(pts
+			(xy 220.98 103.3272) (xy 220.98 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5e5b34-7b78-4878-9da6-70575c9eb261")
+	)
+	(wire
+		(pts
+			(xy 226.06 67.7672) (xy 226.06 62.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fc8ea9-a68f-4684-a1f6-4958e170c299")
+	)
+	(polyline
+		(pts
+			(xy 78.74 149.0472) (xy 73.66 143.9672)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "74829ed1-fa60-4452-948a-d11d033f1440")
+	)
+	(wire
+		(pts
+			(xy 38.1 128.7272) (xy 71.12 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d20d8a-7968-4f2c-971b-f73bff03248a")
+	)
+	(wire
+		(pts
+			(xy 38.1 118.5672) (xy 45.72 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7689d7c9-c934-4038-a83a-906c01525a97")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.1672) (xy 45.72 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d5d0ac-27f8-49bc-83e2-c3e1c09622c0")
+	)
+	(wire
+		(pts
+			(xy 233.68 47.4472) (xy 233.68 44.9072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbf86d2-6c47-4cf0-8e72-9626f9d0cbdc")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.5872) (xy 241.3 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d440042-ecd6-448d-bd06-e53ff94cf990")
+	)
+	(wire
+		(pts
+			(xy 205.74 57.6072) (xy 205.74 52.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d64dad8-86c5-4673-b4b6-370a6f0ddaca")
+	)
+	(wire
+		(pts
+			(xy 38.1 131.2672) (xy 45.72 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df8899f-af2f-4c2f-9993-4683be3331e8")
+	)
+	(wire
+		(pts
+			(xy 38.1 123.6472) (xy 45.72 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e96699e-ce86-4606-b321-43a139df8182")
+	)
+	(wire
+		(pts
+			(xy 81.28 42.3672) (xy 83.82 42.3672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa0f16a-d7f4-439c-81ef-0d386c78fef5")
+	)
+	(wire
+		(pts
+			(xy 205.74 90.6272) (xy 205.74 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cc7fa8-da16-48e3-9124-324aa05432e6")
+	)
+	(wire
+		(pts
+			(xy 63.5 34.7472) (xy 71.12 34.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d45114-8c68-44e7-935a-cc5b3648158f")
+	)
+	(wire
+		(pts
+			(xy 223.52 151.5872) (xy 223.52 146.5072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a355384-f3f9-4cb6-967d-42653eecd267")
+	)
+	(wire
+		(pts
+			(xy 205.74 126.1872) (xy 220.98 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b313f7e-978f-4ead-b57f-321f10ae18dd")
+	)
+	(polyline
+		(pts
+			(xy 114.3 123.6472) (xy 157.48 123.6472)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "8b8c4554-6895-4ac0-bb27-632761c1fc50")
+	)
+	(wire
+		(pts
+			(xy 233.68 116.0272) (xy 236.22 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d205a08-bc02-4eae-8c70-618a80cbc04b")
+	)
+	(wire
+		(pts
+			(xy 233.68 126.1872) (xy 233.68 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906154dd-6c10-45aa-846c-ac2751917bf1")
+	)
+	(polyline
+		(pts
+			(xy 157.48 123.6472) (xy 157.48 141.4272)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "90a57a59-486f-4301-a83d-36747c40248f")
+	)
+	(wire
+		(pts
+			(xy 233.68 90.6272) (xy 233.68 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9598be5d-ff96-4cea-87ea-d23a001c7fb0")
+	)
+	(wire
+		(pts
+			(xy 38.1 44.9072) (xy 45.72 44.9072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973c7976-c209-48ba-a10e-aedebf9756a3")
+	)
+	(wire
+		(pts
+			(xy 38.1 126.1872) (xy 45.72 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9ac563-86b4-468b-98e6-11fb7f6c1578")
+	)
+	(wire
+		(pts
+			(xy 231.14 39.8272) (xy 236.22 39.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd220b4-ec26-4e3e-ad35-499373df06ff")
+	)
+	(wire
+		(pts
+			(xy 76.2 98.2472) (xy 76.2 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44c9203-1b37-4c7c-bf06-f2cbc34a8aaf")
+	)
+	(wire
+		(pts
+			(xy 226.06 67.7672) (xy 236.22 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e8c1c2-09e7-40d6-b020-7d95753643c3")
+	)
+	(wire
+		(pts
+			(xy 38.1 149.0472) (xy 45.72 149.0472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa032ead-3099-49a8-805a-346b575e7a3d")
+	)
+	(wire
+		(pts
+			(xy 241.3 164.2872) (xy 241.3 159.2072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac202711-e4b0-45ab-aea3-7469715c2302")
+	)
+	(wire
+		(pts
+			(xy 38.1 67.7672) (xy 116.84 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad97b07a-1a6f-4149-9bcc-0471cab30362")
+	)
+	(wire
+		(pts
+			(xy 38.1 75.3872) (xy 45.72 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae17c328-812f-4807-bd3e-87d95c0acaa9")
+	)
+	(wire
+		(pts
+			(xy 220.98 141.4272) (xy 241.3 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b183ea6f-82ee-4881-a488-ade2f69a4853")
+	)
+	(wire
+		(pts
+			(xy 38.1 77.9272) (xy 45.72 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e75f7b-986a-455f-a802-930b4ab4aff8")
+	)
+	(wire
+		(pts
+			(xy 205.74 100.7872) (xy 220.98 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b574c70a-015d-4499-b323-2762f0320165")
+	)
+	(wire
+		(pts
+			(xy 38.1 52.5272) (xy 45.72 52.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d6fa1-cf45-4250-a966-377944126e92")
+	)
+	(polyline
+		(pts
+			(xy 73.66 143.9672) (xy 73.66 149.0472)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "bcb11d3d-9fe5-4550-a8e8-213a1fd13c57")
+	)
+	(wire
+		(pts
+			(xy 38.1 42.3672) (xy 71.12 42.3672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc7c460-432b-4f28-b585-6ad64bc4d29c")
+	)
+	(wire
+		(pts
+			(xy 38.1 103.3272) (xy 45.72 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd78ff89-3156-46e9-b79d-3407837684e3")
+	)
+	(wire
+		(pts
+			(xy 233.68 83.0072) (xy 236.22 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb19aa7-40ff-47dc-9535-9e16ac67a1ea")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.8472) (xy 45.72 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c22f2d-ddf7-4d7e-8a34-41f3799ddc73")
+	)
+	(wire
+		(pts
+			(xy 220.98 126.1872) (xy 220.98 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3db9a9d-3e57-4955-abc3-b821d9203ffb")
+	)
+	(polyline
+		(pts
+			(xy 81.28 141.4272) (xy 114.3 141.4272)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "c7509721-e191-4f15-9e3f-9b11a2fe93db")
+	)
+	(wire
+		(pts
+			(xy 193.04 113.4872) (xy 198.12 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7978b81-4d21-4952-89c0-f900f89057b2")
+	)
+	(wire
+		(pts
+			(xy 38.1 133.8072) (xy 45.72 133.8072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8274c1f-1e73-4e10-8288-93b820db988e")
+	)
+	(polyline
+		(pts
+			(xy 73.66 149.0472) (xy 81.28 141.4272)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "c828c758-80f5-4bc2-aa42-d19fd1011f03")
+	)
+	(wire
+		(pts
+			(xy 220.98 126.1872) (xy 233.68 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3960c2-26fe-408a-92f6-cf0eedd2d040")
+	)
+	(wire
+		(pts
+			(xy 213.36 90.6272) (xy 213.36 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d395dce9-a05f-4c05-8047-c0c7f8f484fd")
+	)
+	(wire
+		(pts
+			(xy 81.28 34.7472) (xy 83.82 34.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bdd66b-5f22-4e66-8a62-e620a8144758")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.7072) (xy 63.5 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69217d4-2298-49fa-83aa-3ae0293bc9cc")
+	)
+	(polyline
+		(pts
+			(xy 73.66 149.0472) (xy 78.74 149.0472)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 128 128 128 1)
+		)
+		(uuid "d9b75f12-ed78-4fb5-b707-d352aec7ccb8")
+	)
+	(wire
+		(pts
+			(xy 233.68 44.9072) (xy 236.22 44.9072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db65fe49-8baa-4ba6-82a8-93e08fb89efd")
+	)
+	(wire
+		(pts
+			(xy 104.14 37.2872) (xy 104.14 34.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd4c243-4573-40e6-b220-223b964816bd")
+	)
+	(wire
+		(pts
+			(xy 223.52 164.2872) (xy 223.52 161.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc16ca7d-4673-416b-956b-0554e1395705")
+	)
+	(wire
+		(pts
+			(xy 233.68 83.0072) (xy 233.68 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3c20fe-d2ab-4327-8e34-318df5a12030")
+	)
+	(wire
+		(pts
+			(xy 233.68 113.4872) (xy 236.22 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9ce04f-a35a-4d84-a857-e1effe4f7dc8")
+	)
+	(wire
+		(pts
+			(xy 38.1 98.2472) (xy 45.72 98.2472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e482a3ee-bf68-40ca-8e2c-bce4e24d8e94")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.6872) (xy 45.72 62.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e755f057-f5ed-43c8-ac69-26c6ae3c057f")
+	)
+	(wire
+		(pts
+			(xy 226.06 90.6272) (xy 226.06 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf7c3c7-7cdb-4d1a-8fc9-445daeae3d45")
+	)
+	(wire
+		(pts
+			(xy 205.74 126.1872) (xy 205.74 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed356c2e-56a9-4848-a3f2-e99e515cf38f")
+	)
+	(wire
+		(pts
+			(xy 226.06 62.6872) (xy 236.22 62.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4ce129-48b1-451a-9fc9-b4f951fc2788")
+	)
+	(wire
+		(pts
+			(xy 233.68 113.4872) (xy 233.68 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee9943d-aa28-4f5c-a094-5c052bc4c089")
+	)
+	(wire
+		(pts
+			(xy 213.36 57.6072) (xy 236.22 57.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4ea398-eb3b-49a3-bbdf-3586ffd4cabc")
+	)
+	(wire
+		(pts
+			(xy 63.5 37.2872) (xy 104.14 37.2872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9d4b15-ea93-4f3e-8581-a3db44897305")
+	)
+	(wire
+		(pts
+			(xy 38.1 146.5072) (xy 38.1 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30d320a-8782-477f-b3a9-1da0c672d504")
+	)
+	(wire
+		(pts
+			(xy 233.68 77.9272) (xy 236.22 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48851fa-68ff-44f6-9333-f557262cc514")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.0272) (xy 198.12 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a27852-9602-417d-abf1-55a2355aca03")
+	)
+	(wire
+		(pts
+			(xy 223.52 146.5072) (xy 228.6 146.5072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c0490b-316b-4d8f-b5f7-9135aef02034")
+	)
+	(wire
+		(pts
+			(xy 220.98 100.7872) (xy 233.68 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf00395-251d-4103-afcd-9bb355379828")
+	)
+	(wire
+		(pts
+			(xy 63.5 105.8672) (xy 83.82 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda78428-e20d-4df2-afd3-afd81d958de5")
+	)
+	(label "VDD_3V3_SPEKTRUM_EN"
+		(at 38.1 141.4272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0397617f-040d-4dc4-8a2e-4a033867df6a")
+	)
+	(label "IO-!RESET"
+		(at 248.92 141.4272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09a120e2-c83e-44b5-a29c-055197213ad6")
+	)
+	(label "IO-SWDIO"
+		(at 45.72 75.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "193f6cc4-b329-475c-9ac7-56f46881211d")
+	)
+	(label "IO-CH8"
+		(at 45.72 93.1672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19565969-ca2b-43f5-86e7-ac303ac70460")
+	)
+	(label "~{IO-LED_SAFETY}"
+		(at 45.72 131.2672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23ba1f03-996f-405e-8870-bad9c5de88a9")
+	)
+	(label "IO-CH4"
+		(at 45.72 121.1072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "266f9211-0dfb-45d7-a037-e6e8bcb9c50b")
+	)
+	(label "IO-USART1_TX"
+		(at 45.72 65.2272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26931f60-a3a7-4c8e-82cf-e90a62ac9d43")
+	)
+	(label "SAFETY"
+		(at 45.72 103.3272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c802bb7-c981-475f-9ef6-40dd62193e71")
+	)
+	(label "IO-BOOT1"
+		(at 45.72 95.7072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "370bd3da-470e-4944-a2af-dc4e53f44faa")
+	)
+	(label "IO-!VDD_SERVO_IN_FAULT"
+		(at 45.72 80.4672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c41e533-a2d2-4a53-ba5f-7549a11b9f0b")
+	)
+	(label "IO-USART1_RX_SPECTRUM_DSM"
+		(at 45.72 67.7672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d79afe1-2021-4440-b3ba-c711e6e4789d")
+	)
+	(label "I/O_POWER_BREATHING"
+		(at 104.14 70.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e73b563-5fe1-40cc-b54c-448459077c4d")
+	)
+	(label "IO-VDD_3V3"
+		(at 231.14 39.8272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3edfcdd8-3030-46b1-971f-03d4a7442649")
+	)
+	(label "RSSI_IN"
+		(at 45.72 72.8472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "439878c3-bb34-4882-9a87-ef277ba16dcd")
+	)
+	(label "IO-SWCLK"
+		(at 45.72 77.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45bd78ef-d596-47ca-ab71-427bafdd0ef1")
+	)
+	(label "VBAT"
+		(at 231.14 34.7472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46f34ec6-e1c5-4e6d-aed7-3e3b19818167")
+	)
+	(label "IMU_TEMPERATURE_CONTROL"
+		(at 45.72 133.8072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "594af8ce-455e-467c-bfc9-c5f5622fb52f")
+	)
+	(label "IO-CH1"
+		(at 45.72 34.7472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63a65b32-350a-4ba0-bc8d-71c5fe0dd261")
+	)
+	(label "IO-SWO"
+		(at 45.72 98.2472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b66da16-52d7-4abf-be5c-4555a3b3cb94")
+	)
+	(label "IO-CH6"
+		(at 45.72 52.5272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fa703c9-e835-4084-830c-ae7a515f9c36")
+	)
+	(label "SBUS_INPUT"
+		(at 45.72 126.1872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81627649-a849-4f58-9f1b-a1f1a9d39a75")
+	)
+	(label "~{VDD_BACKUP_VALID}"
+		(at 83.82 108.4072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84fa4ee6-3250-40f2-8301-5b2844d68c37")
+	)
+	(label "SERIAL_IO_TO_FMU"
+		(at 83.82 34.7472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ffb6107-005e-4dc2-ae60-23a5559d8b59")
+	)
+	(label "IO-VDD_3V3"
+		(at 45.72 149.0472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95e1ba07-276f-49b8-85e0-0a21b9e286fe")
+	)
+	(label "SERIAL_FMU_TO_IO"
+		(at 83.82 42.3672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96b226ba-e078-4dad-8249-bcc3491e02ba")
+	)
+	(label "RSSI_IN"
+		(at 45.72 47.4472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bc77f62-5eb8-412a-95f4-42dc4448c99a")
+	)
+	(label "IO-VDD_3V3"
+		(at 205.74 53.7972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3173b8c-98e6-4cb7-8036-b930a8213715")
+	)
+	(label "IO-CH7"
+		(at 45.72 90.6272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae16e1d3-2358-4256-917e-c0b4f6b6d23a")
+	)
+	(label "IO-CH3"
+		(at 45.72 118.5672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f35192-5cc0-47fb-9547-c0a7270e9d74")
+	)
+	(label "PPM_INPUT"
+		(at 45.72 62.6872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bee4b5f4-2bf7-4f44-83e6-f02d9c15ab54")
+	)
+	(label "SBUS_OUTPUT"
+		(at 45.72 123.6472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c120c3b4-ce99-45dd-8e23-ecaf234fdf96")
+	)
+	(label "~{VDD_BRICK_VALID}"
+		(at 83.82 105.8672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c24e1647-04fc-4372-9ce0-3f7ff38b0fc8")
+	)
+	(label "IO-BOOT0"
+		(at 228.6 146.5072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca9395ad-82e7-44fe-94f6-56a915cf5db4")
+	)
+	(label "VDD_SERVO_SENS"
+		(at 45.72 44.9072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d267c19b-4fef-45a4-97e5-f38cb6c18d84")
+	)
+	(label "~{SBUS_OUTPUT_EN}"
+		(at 45.72 100.7872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daa901ac-6f0c-4ec2-9e9e-61db79b492ab")
+	)
+	(label "~{IO-LED_AMBER}"
+		(at 45.72 136.3472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0850e15-a17c-4318-8efa-3a08d6b8320d")
+	)
+	(label "IO-CH2"
+		(at 45.72 37.2872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1b647fb-d021-47c4-9ff4-91c546122274")
+	)
+	(label "IO-CH5"
+		(at 45.72 49.9872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed6d61c7-88b2-408a-b168-a61c16669911")
+	)
+	(label "FMU-VDD_3V3"
+		(at 83.82 128.7272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6e29d51-f1e1-4656-a483-7479d724f0d0")
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 246.38 72.8472 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "030fd5c3-afdd-48c5-843e-45b0a3106893")
+		(property "Reference" "U7001"
+			(at 241.3 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 241.3 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 246.38 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 238.252 62.4332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 241.046 93.4212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 235.712 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "ca93070e-fef6-41c1-aad7-a0ddb9dd3785")
+		)
+		(pin "30"
+			(uuid "bfcb81ec-58cb-4d46-8299-2084787759bb")
+		)
+		(pin "31"
+			(uuid "a06e238f-7772-4195-8b2e-5e1bd87dc314")
+		)
+		(pin "32"
+			(uuid "d0c8d676-44ff-4baa-93ca-36c6a55bd02f")
+		)
+		(pin "33"
+			(uuid "2d802b77-550d-4aa9-8a24-4f90e15efe62")
+		)
+		(pin "34"
+			(uuid "dcfa5ff8-051c-42c3-baef-9c0439c8e39b")
+		)
+		(pin "37"
+			(uuid "a0c24d9e-95f0-4431-9e85-49b9f6936cc7")
+		)
+		(pin "38"
+			(uuid "1c8294b6-1366-4e39-a878-e68fe09a3e61")
+		)
+		(pin "18"
+			(uuid "a37cf2c3-3f1d-44d5-869a-c821d60a38bc")
+		)
+		(pin "19"
+			(uuid "08e347eb-3639-4a9f-8e77-a9ced9ad91ae")
+		)
+		(pin "20"
+			(uuid "886d66e9-7b82-4e4c-ab2c-fe5e81627c16")
+		)
+		(pin "39"
+			(uuid "bda44f68-85dd-491b-a9e0-445255333de2")
+		)
+		(pin "40"
+			(uuid "a79ae832-0445-491a-b243-38450c68575f")
+		)
+		(pin "41"
+			(uuid "e9b364fb-4a94-4cbe-be45-724ce3d41ffa")
+		)
+		(pin "42"
+			(uuid "86823fb7-71c7-49d6-9690-2b3db35fc467")
+		)
+		(pin "43"
+			(uuid "d280a4c2-39a7-4b06-9b28-a1bc20b4cdae")
+		)
+		(pin "45"
+			(uuid "ed113794-6c42-489b-8104-a9d7ad0afa56")
+		)
+		(pin "46"
+			(uuid "5dad0f1f-6d44-4226-9a39-4153bccd59ff")
+		)
+		(pin "21"
+			(uuid "5545d898-b3e8-4df7-ab83-fe5ccfc48137")
+		)
+		(pin "22"
+			(uuid "6485100b-1a2c-4a5d-ad2f-9132da24c402")
+		)
+		(pin "25"
+			(uuid "d6ea9510-16c5-4bb4-add8-279e25d27dc4")
+		)
+		(pin "26"
+			(uuid "62fef675-ac18-401e-a953-2394e76ac220")
+		)
+		(pin "27"
+			(uuid "9b164e5f-87fe-41b9-8503-28feb0b2263f")
+		)
+		(pin "28"
+			(uuid "0d26ab89-a4c8-44b9-9cba-2ec2a55a29ca")
+		)
+		(pin "24"
+			(uuid "2fc76eb0-4bf6-4a64-81d9-922cf04f0f79")
+		)
+		(pin "36"
+			(uuid "fbb37d00-bc7c-47d9-b170-d8289d8db01d")
+		)
+		(pin "48"
+			(uuid "ce3191f2-44d7-4802-8774-b10c1d03858f")
+		)
+		(pin "23"
+			(uuid "262969bd-e2aa-47cc-91cb-211d80fcd7a1")
+		)
+		(pin "35"
+			(uuid "d6e2b713-bc79-49e8-9d04-5154b6aee5e4")
+		)
+		(pin "47"
+			(uuid "39935d49-df42-4c40-aa9d-620d8d26e652")
+		)
+		(pin "2"
+			(uuid "f31e8d38-c39f-4f6d-a5d3-862c7e20f517")
+		)
+		(pin "3"
+			(uuid "87ccb412-60b0-492c-b79d-2d6cd16caea4")
+		)
+		(pin "4"
+			(uuid "58b9f380-65ce-4784-8036-4d435ce47aca")
+		)
+		(pin "5"
+			(uuid "dde6e0a1-d972-4733-8e0f-f1ef9197becf")
+		)
+		(pin "6"
+			(uuid "85153aa7-490f-461e-acb7-c00812c65169")
+		)
+		(pin "1"
+			(uuid "776cbfe9-0f79-4b15-8ac2-782ab32d0b3d")
+		)
+		(pin "8"
+			(uuid "9db200e7-bbd7-4e22-b5fe-534da565894d")
+		)
+		(pin "9"
+			(uuid "b3572e0c-9808-435f-8be2-db7a08dd723c")
+		)
+		(pin "7"
+			(uuid "c0280c41-a9fa-4e1d-ac7d-15b47b5ebc7d")
+		)
+		(pin "44"
+			(uuid "a09ead41-4b6c-47bb-8a05-18fdd5032f3e")
+		)
+		(pin "10"
+			(uuid "c27ab77c-9f33-464f-90c6-8b6990c57dbb")
+		)
+		(pin "11"
+			(uuid "f272105e-7135-4566-8267-b1f13cec23d4")
+		)
+		(pin "12"
+			(uuid "d780a21d-8b5d-4f0f-8f73-7f4b8f49fac2")
+		)
+		(pin "13"
+			(uuid "519474b1-80c3-4bdd-b1e2-9ef8090d0dff")
+		)
+		(pin "14"
+			(uuid "4f9a50f1-0805-4a33-852f-e701abfa3b29")
+		)
+		(pin "15"
+			(uuid "79c242c4-cdcd-453b-b02a-cdc45b2ac637")
+		)
+		(pin "16"
+			(uuid "694febb6-d891-4b81-bdb4-e602048d7332")
+		)
+		(pin "17"
+			(uuid "97a0e89f-dc94-4adf-9ac1-285b6f9d6016")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 5)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 210.82 143.9672 0)
+		(unit 9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17c533ba-91f0-467b-b3b9-7727ac95ca50")
+		(property "Reference" "U7001"
+			(at 246.38 138.8872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 205.74 138.8872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 210.82 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 202.692 133.5532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 205.486 151.8412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 205.486 154.3812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "d656df86-2b97-49d4-8468-61daf630eac1")
+		)
+		(pin "30"
+			(uuid "10557966-5db1-49c1-b4a7-75f8418b4509")
+		)
+		(pin "31"
+			(uuid "a65fd8d3-755f-498c-a1bd-8fac22033252")
+		)
+		(pin "32"
+			(uuid "7cd749f3-0ff5-4fa8-b269-2ee3d9340c0a")
+		)
+		(pin "33"
+			(uuid "b6a72bd7-9813-4f33-9101-0eb40ab9b703")
+		)
+		(pin "34"
+			(uuid "cb687678-2ebe-4eb5-abb0-1d6561912b13")
+		)
+		(pin "37"
+			(uuid "2f1ab03f-775b-4c75-b779-c842fad7d477")
+		)
+		(pin "38"
+			(uuid "bf0b9f68-c2c0-46ac-8792-320b4cbfbe1f")
+		)
+		(pin "18"
+			(uuid "691e08aa-e829-4d58-bf65-75960079b0cc")
+		)
+		(pin "19"
+			(uuid "999c3ae2-e993-467b-923e-eab41770c423")
+		)
+		(pin "20"
+			(uuid "b0fb5c5a-3469-457c-b8b2-31183ff6dc83")
+		)
+		(pin "39"
+			(uuid "5617e8d5-0222-4d3e-80cf-69d5a04e59e2")
+		)
+		(pin "40"
+			(uuid "615aa0f1-7106-48b7-ac2e-ca209565565c")
+		)
+		(pin "41"
+			(uuid "9cf1a376-131b-4891-99bd-914cd3da56f6")
+		)
+		(pin "42"
+			(uuid "8bd37dc7-005e-4d9f-97d3-00f44d5ac4e1")
+		)
+		(pin "43"
+			(uuid "8a285bad-d41d-44f7-aecb-4b4b88631e2a")
+		)
+		(pin "45"
+			(uuid "46a1eb3d-e484-46ef-9500-6cdb89c5a14b")
+		)
+		(pin "46"
+			(uuid "4e194694-7227-40df-9548-23436fada802")
+		)
+		(pin "21"
+			(uuid "feb79c27-d258-4492-825a-2bbfac7967e7")
+		)
+		(pin "22"
+			(uuid "208bd0f4-7de8-4553-bfdc-f6f3728a84bf")
+		)
+		(pin "25"
+			(uuid "9b7636d0-e34e-4c9c-a48a-9d63d1bebca1")
+		)
+		(pin "26"
+			(uuid "dd153d6d-4ac1-4fba-913a-3ffe579e282d")
+		)
+		(pin "27"
+			(uuid "c18d096f-8566-4bcf-a6fe-4ffaa1039955")
+		)
+		(pin "28"
+			(uuid "04d1e14d-bce9-41c5-a706-09a89c1d4c3d")
+		)
+		(pin "24"
+			(uuid "77b2b39c-89eb-4bb1-b0ea-f648258902ec")
+		)
+		(pin "36"
+			(uuid "6a16926d-9b76-4c85-aada-26afd1d9f757")
+		)
+		(pin "48"
+			(uuid "bf5f02eb-2356-4ef0-9e5b-7f35c58e2257")
+		)
+		(pin "23"
+			(uuid "2d7bfa46-43d5-40fe-9413-ebfd00c9d9e7")
+		)
+		(pin "35"
+			(uuid "02880c3c-0f7a-4823-b364-faba45098670")
+		)
+		(pin "47"
+			(uuid "48c6ba54-cc68-430b-9d52-528a8a1c2ac9")
+		)
+		(pin "2"
+			(uuid "7ba07233-5e43-47ad-a56d-2b8e0d5ea724")
+		)
+		(pin "3"
+			(uuid "8aab1cdf-d52f-4d28-adb3-7334939312b2")
+		)
+		(pin "4"
+			(uuid "c213b2f1-dfcb-430c-82b8-fb04667f6be3")
+		)
+		(pin "5"
+			(uuid "827d6eb7-e878-4f02-a393-a253a748cae5")
+		)
+		(pin "6"
+			(uuid "e90b69fb-8cc6-4242-b184-b8b8a3300ad0")
+		)
+		(pin "1"
+			(uuid "2010b0a9-b21a-44a8-999e-8f563961a88c")
+		)
+		(pin "8"
+			(uuid "5d02de0d-603f-4de1-8511-b8cbfe5e0648")
+		)
+		(pin "9"
+			(uuid "c904e340-d161-4821-a63e-be5ca2eff77e")
+		)
+		(pin "7"
+			(uuid "94594de7-ee82-45fa-b022-09c87bf0558f")
+		)
+		(pin "44"
+			(uuid "448361b3-0da7-4405-983d-fdf8d13725ba")
+		)
+		(pin "10"
+			(uuid "6e0a8760-6498-4253-954e-d9503e70b544")
+		)
+		(pin "11"
+			(uuid "540bf506-2cf7-4c8d-92d4-ad4e1f9fdb5f")
+		)
+		(pin "12"
+			(uuid "8a7df42a-911b-4692-a73b-0607181556a7")
+		)
+		(pin "13"
+			(uuid "aa9093bb-be09-4413-9703-da926d70df5c")
+		)
+		(pin "14"
+			(uuid "876d391e-dfdb-416c-bf16-7586a235ba81")
+		)
+		(pin "15"
+			(uuid "7ec2aa72-a0a1-46e9-93a6-24178262c3db")
+		)
+		(pin "16"
+			(uuid "34dbfd8a-7448-4f69-9810-8d35c9818dea")
+		)
+		(pin "17"
+			(uuid "4f4d84c5-a68f-4ecc-acbb-c9d146036129")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 9)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 76.2 34.7472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20edb4e4-767f-482d-9f82-04b20cf91fae")
+		(property "Reference" "R7003"
+			(at 72.644 33.5022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220R"
+			(at 72.644 38.3032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 34.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 34.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1/16W 1% 0402 SMD"
+			(at 76.2 34.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07220RL"
+			(at 70.612 33.4772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 70.612 30.9622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-220LRCT-ND"
+			(at 83.058 33.2232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0821"
+			(at 70.612 30.6832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "220R"
+			(at 70.612 30.6832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "86a95d21-0bf3-4a6b-ada5-2554f2bbba4e")
+		)
+		(pin "P$1"
+			(uuid "c1ac0db7-5c4a-49d7-a8ee-f19e28bda2ab")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7003")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_RESISTOR0402-RES_pixhawk2.IntLib_1")
+		(lib_id "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 68.58 95.7072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f9fb39b-acb6-4438-8d17-113b2e47f4a8")
+		(property "Reference" "R7002"
+			(at 65.024 94.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 65.024 99.2632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1/16W 1% 0402 SMD"
+			(at 68.58 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0710KL"
+			(at 62.992 94.4372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 62.992 91.9222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-10.0KLRCT-ND"
+			(at 62.992 91.9222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0800"
+			(at 62.992 89.3822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10K"
+			(at 62.992 89.3822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "f499629f-3756-43f0-8063-854f72c95e86")
+		)
+		(pin "P$2"
+			(uuid "16e2d937-0b90-4dc2-9570-72d58511fd29")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7002")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 27.94 100.7872 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aa72d72-588b-4e65-b241-732acccb08b5")
+		(property "Reference" "U7001"
+			(at 63.5 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 22.86 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 27.94 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 19.812 90.3732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 22.606 113.7412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 22.606 116.2812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "32eb2d20-a8a7-4def-9824-7dce426ecb95")
+		)
+		(pin "30"
+			(uuid "364152df-e193-4447-b156-68ecf723ebd4")
+		)
+		(pin "31"
+			(uuid "abe63cd4-9704-45b5-990a-d41d92436e9d")
+		)
+		(pin "32"
+			(uuid "a3478bf3-5f1d-4e42-a693-1cdb2dbce15a")
+		)
+		(pin "33"
+			(uuid "35f9c539-bc30-4bbb-a20c-7ae4a78eb89f")
+		)
+		(pin "34"
+			(uuid "560b7721-2cc8-4a2d-84ef-d36a64a4a920")
+		)
+		(pin "37"
+			(uuid "d3e04007-0611-43da-b3fa-d10201c380cd")
+		)
+		(pin "38"
+			(uuid "766f49f7-2f71-4b6e-a4b1-0821f60bac7b")
+		)
+		(pin "18"
+			(uuid "21b9055b-a702-4975-9b8a-3f94469ddb39")
+		)
+		(pin "19"
+			(uuid "61e6b98e-676b-4916-a341-d35b1c949251")
+		)
+		(pin "20"
+			(uuid "cd076e77-5884-4f0d-9070-334a81426191")
+		)
+		(pin "39"
+			(uuid "cc8f4169-81fd-4500-9731-6cd06e2b2e49")
+		)
+		(pin "40"
+			(uuid "54319f69-db3f-4ed4-894e-a7de83789bb4")
+		)
+		(pin "41"
+			(uuid "93c6420b-1e80-4284-9fad-298aaa3c4d72")
+		)
+		(pin "42"
+			(uuid "63f6db09-b5f6-475a-840a-fc3728675baf")
+		)
+		(pin "43"
+			(uuid "7fc44481-26bb-42e2-b8e4-3e6b4ca0135e")
+		)
+		(pin "45"
+			(uuid "7bb474cd-fb2a-42a6-b21e-597c1509b5c4")
+		)
+		(pin "46"
+			(uuid "5a866b76-f468-4772-b531-fa72dc917c4f")
+		)
+		(pin "21"
+			(uuid "d83b271d-6807-4992-a099-a405a7904851")
+		)
+		(pin "22"
+			(uuid "1076dc09-8b71-4ae6-b923-b956d48236d0")
+		)
+		(pin "25"
+			(uuid "0fb13167-03eb-4343-871b-f4c78f937889")
+		)
+		(pin "26"
+			(uuid "76ea3ed1-0668-4569-8b90-c30cf3030bc8")
+		)
+		(pin "27"
+			(uuid "555de471-ec05-4b61-92af-b1f2ae684247")
+		)
+		(pin "28"
+			(uuid "e5a774a4-1c1b-42da-98a9-0ee4d1126fa9")
+		)
+		(pin "24"
+			(uuid "73f2e452-cb04-44e7-823d-fc83f101c726")
+		)
+		(pin "36"
+			(uuid "76dcd244-850f-42cf-b8e3-a25b8614ff53")
+		)
+		(pin "48"
+			(uuid "6750534f-4d60-4274-ac43-80c0fe0740e7")
+		)
+		(pin "23"
+			(uuid "64ad233e-0301-4a6a-a957-3b8b66d4005f")
+		)
+		(pin "35"
+			(uuid "73e55d22-93ba-48a3-ba61-6bc5f7685836")
+		)
+		(pin "47"
+			(uuid "cd8d49fc-9247-4c40-b2cc-787a959c140d")
+		)
+		(pin "2"
+			(uuid "04cba6c8-36fb-4851-b7cf-881e96b11740")
+		)
+		(pin "3"
+			(uuid "dc7c3ba5-a5bf-4752-8bb6-c38f281f5c71")
+		)
+		(pin "4"
+			(uuid "e126c913-8d9b-40cb-8c11-a1fd4bf3aff3")
+		)
+		(pin "5"
+			(uuid "18c4b776-efce-4310-a4e2-542e9d49e050")
+		)
+		(pin "6"
+			(uuid "3a963356-59f0-41db-b413-8a646cb43105")
+		)
+		(pin "1"
+			(uuid "69788ab9-efe2-4669-9b63-4b96810d0c73")
+		)
+		(pin "8"
+			(uuid "681727ac-1b9a-4b0c-8799-1e7098cf7d44")
+		)
+		(pin "9"
+			(uuid "147573fa-5058-4535-86d1-e9135563cff7")
+		)
+		(pin "7"
+			(uuid "a376c5ca-8627-4015-ba7b-f9e2b1dcb857")
+		)
+		(pin "44"
+			(uuid "c8158e5d-bedd-4155-864e-065899d5f23c")
+		)
+		(pin "10"
+			(uuid "d719ac2d-c35a-4aa4-9c3c-2d4ac32df3a3")
+		)
+		(pin "11"
+			(uuid "17bf5053-6f6c-4530-bf03-623dd2bebfc6")
+		)
+		(pin "12"
+			(uuid "e342cf01-7ef1-4f51-9086-f2a8eb1c8b1f")
+		)
+		(pin "13"
+			(uuid "20c12944-449a-4dc7-8723-4c5c60648b5f")
+		)
+		(pin "14"
+			(uuid "14f0a6dc-b5d3-408c-add6-b582ca59fb5b")
+		)
+		(pin "15"
+			(uuid "e0b9efa7-09cf-49e1-b822-487dbb29d127")
+		)
+		(pin "16"
+			(uuid "e3a6d1e5-2de0-491e-909c-db595786060f")
+		)
+		(pin "17"
+			(uuid "44dd1493-3160-4c8e-8f93-a8983805a624")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 3)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 193.04 126.1872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69274d44-c8fd-4ce1-a445-58eab5d1e3d9")
+		(property "Reference" "#PWR0158"
+			(at 193.04 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 129.9972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "71b7909a-ffb1-461c-9db5-0f192dffaf57")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 223.52 164.2872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a854e55-f82c-4c0e-a80f-e9fa2b9f4a20")
+		(property "Reference" "#PWR0162"
+			(at 223.52 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 168.0972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0a12bf95-3994-40e1-80d7-44c8bd86f882")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 76.2 42.3672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dbc514a-491e-4208-9072-cf85f8816a06")
+		(property "Reference" "R7004"
+			(at 72.644 41.1222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220R"
+			(at 72.644 45.9232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 42.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 42.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1/16W 1% 0402 SMD"
+			(at 76.2 42.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07220RL"
+			(at 70.612 41.0972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 70.612 38.5822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-220LRCT-ND"
+			(at 82.804 40.8432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0821"
+			(at 70.612 38.3032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "220R"
+			(at 70.612 38.3032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "d1d482f5-e2f8-4f50-89db-248a5fea444c")
+		)
+		(pin "P$1"
+			(uuid "adb03910-0b85-4b10-ad30-8c4e12da85e5")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7004")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_2_CAP0402_pixhawk2.IntLib")
+		(at 241.3 154.1272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73c88d6e-dad8-45b0-9692-cb0c1edfc4bd")
+		(property "Reference" "C7001"
+			(at 238.76 156.6672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0u1"
+			(at 238.76 149.0472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 154.1272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 154.1272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+			(at 241.3 154.1272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0402ZRY5V7BB104"
+			(at 239.268 151.0792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 232.794 151.0792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-1047-1-ND"
+			(at 246.38 161.7472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0700"
+			(at 238.76 146.9682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0u1"
+			(at 238.76 146.9682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "670f2629-41ce-496c-af84-13d0f67fd0ea")
+		)
+		(pin "P$2"
+			(uuid "575d50e3-99cd-4085-a26c-64a09e17c3ee")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "C7001")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "C7001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 226.06 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7445bbc2-f72e-4961-bef1-933dc2fe8bea")
+		(property "Reference" "#PWR0156"
+			(at 226.06 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 94.4372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0822fb2d-c75b-4556-bfc7-2c1b3e5b09fe")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 68.58 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7606f997-dcd3-4138-bcba-09856b1cb78b")
+		(property "Reference" "R7011"
+			(at 73.66 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220R"
+			(at 60.96 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1/16W 1% 0402 SMD"
+			(at 68.58 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07220RL"
+			(at 62.992 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 62.992 104.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-220LRCT-ND"
+			(at 38.1 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0821"
+			(at 38.1 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "220R"
+			(at 38.1 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "80e5d726-b112-4ceb-853f-e5a38f77af06")
+		)
+		(pin "P$1"
+			(uuid "7f16d712-c9ae-4b42-86d3-e15879f9562e")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7011")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 241.3 164.2872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f284e49-066a-4fa0-93d5-29193f2975b9")
+		(property "Reference" "#PWR0161"
+			(at 241.3 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 168.0972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "575ad690-de2f-4116-9830-6ed4f5e8368d")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 205.74 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8841f8c9-2ff7-4b73-9e9c-0fc953888005")
+		(property "Reference" "#PWR0154"
+			(at 205.74 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 94.4372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "18689492-2630-42fc-9c4d-7f4240d6113f")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_CAP0402_pixhawk2.IntLib")
+		(at 220.98 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "884be554-65e3-49c8-9d3c-41a155dd4bf9")
+		(property "Reference" "C7004"
+			(at 218.44 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "8p"
+			(at 219.202 110.8202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 8PF 50V C0G 0402"
+			(at 220.98 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C1005C0G1H080C"
+			(at 218.948 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 212.474 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "445-4890-1-ND"
+			(at 210.82 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0710"
+			(at 210.82 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "8p"
+			(at 210.82 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "d629988e-1891-42e5-9e80-0dd0685ea14f")
+		)
+		(pin "P$2"
+			(uuid "a19c94b2-0d99-42e7-ac2d-0bd7efad6257")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "C7004")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "C7004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 243.84 113.4872 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8876fb3f-1fbf-4283-8242-a044471a7de1")
+		(property "Reference" "U7001"
+			(at 241.3 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 241.3 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 243.84 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 235.712 103.0732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 241.046 121.3612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 235.712 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "440f5ff1-03ce-480c-8de1-420c8e57b38b")
+		)
+		(pin "30"
+			(uuid "f7ce44b1-506d-4299-aca3-e66c1a27b1c6")
+		)
+		(pin "31"
+			(uuid "82d81307-557a-4310-bdf9-98c7c9a68da3")
+		)
+		(pin "32"
+			(uuid "4784292b-7cad-4893-a52e-18cd5b6a008d")
+		)
+		(pin "33"
+			(uuid "627585c5-a87b-4755-9deb-21db54acba3d")
+		)
+		(pin "34"
+			(uuid "699fa1fc-00db-4a7a-af43-d32563620951")
+		)
+		(pin "37"
+			(uuid "5867fbfe-908a-40ac-88cd-991ca7b387c7")
+		)
+		(pin "38"
+			(uuid "04e9e167-b192-4d67-a0be-c1cf186289fb")
+		)
+		(pin "18"
+			(uuid "43eab6d5-02e0-4da7-af75-0a1ca39e508c")
+		)
+		(pin "19"
+			(uuid "a92045f7-3327-49a0-8874-0fded8cbcc73")
+		)
+		(pin "20"
+			(uuid "15503b6e-58a0-4f09-be4d-527b2c6ceed6")
+		)
+		(pin "39"
+			(uuid "f6f166e8-8bd0-4485-9960-380e9e80513c")
+		)
+		(pin "40"
+			(uuid "c358aa43-1eab-4a38-b3cf-461c21e9289f")
+		)
+		(pin "41"
+			(uuid "66b781b7-e7ea-46c4-bb3e-4b0cee4d9cd2")
+		)
+		(pin "42"
+			(uuid "228fad6a-93cb-44a6-9eab-31e12e1043c6")
+		)
+		(pin "43"
+			(uuid "e1c51f67-3f1d-406b-981c-926e1fc6da75")
+		)
+		(pin "45"
+			(uuid "90927847-3106-4e5c-a575-466e11bcf9fc")
+		)
+		(pin "46"
+			(uuid "f52535a7-7691-43ae-9141-a984aea6a534")
+		)
+		(pin "21"
+			(uuid "7d29adab-3a22-44b4-8c91-4e05e632f382")
+		)
+		(pin "22"
+			(uuid "fd5cbf6f-b11d-4cec-b77d-dd4a5cdde1aa")
+		)
+		(pin "25"
+			(uuid "d60ae871-9a7f-43b5-bb69-7f12bac1df89")
+		)
+		(pin "26"
+			(uuid "edbce76f-3102-459c-b215-5e77d86ccfa7")
+		)
+		(pin "27"
+			(uuid "40192984-08e9-4993-97b9-c7ad55562e34")
+		)
+		(pin "28"
+			(uuid "a48e68f6-1910-4a86-ae26-44f1144e08be")
+		)
+		(pin "24"
+			(uuid "c4897665-6e46-4844-9610-7b3c52520f52")
+		)
+		(pin "36"
+			(uuid "11e8393f-4bb5-4b6e-b0cd-be98302e6362")
+		)
+		(pin "48"
+			(uuid "64e2c4d4-1707-4a23-bf87-b3f9a2ad0332")
+		)
+		(pin "23"
+			(uuid "71caf425-daf6-4ff6-94db-aae1c6a7899c")
+		)
+		(pin "35"
+			(uuid "22e85d02-7fed-4bcb-8ab6-69c8340f4101")
+		)
+		(pin "47"
+			(uuid "d9dce3ee-2d80-46af-bfcb-5e415f1bc79d")
+		)
+		(pin "2"
+			(uuid "56dee9a5-5050-4737-8d25-43d6e8ac30bf")
+		)
+		(pin "3"
+			(uuid "447f2abb-63ce-44a5-a60a-3892d2174b8f")
+		)
+		(pin "4"
+			(uuid "b9bef205-d5c7-4333-8c9e-8fe8936bef60")
+		)
+		(pin "5"
+			(uuid "2cd03dd1-0041-4dcb-9566-6d9953baf6b8")
+		)
+		(pin "6"
+			(uuid "3d025dcd-126a-4da4-864b-65cae8224aa4")
+		)
+		(pin "1"
+			(uuid "bc33d2ff-431e-4bb2-a51b-83ce57dea1ec")
+		)
+		(pin "8"
+			(uuid "748df8ad-18d0-429b-9d15-62fe195b4541")
+		)
+		(pin "9"
+			(uuid "ea448f37-8248-4e34-94aa-34de06493da5")
+		)
+		(pin "7"
+			(uuid "40efc3b1-593d-4583-83b3-27b807a40fab")
+		)
+		(pin "44"
+			(uuid "b86ff30e-489f-485f-973d-eac58acad4f8")
+		)
+		(pin "10"
+			(uuid "e8ddc639-d164-409e-9f84-ac0eb1366e58")
+		)
+		(pin "11"
+			(uuid "17633e8f-8062-4c3a-ad25-cc7059fb4423")
+		)
+		(pin "12"
+			(uuid "8c013953-0f9b-4c94-a4e0-b80ec704614f")
+		)
+		(pin "13"
+			(uuid "c6f9ae92-88b2-44b1-a3de-444e6f604c74")
+		)
+		(pin "14"
+			(uuid "e4e0e2d8-5121-49b2-975d-152976fd2482")
+		)
+		(pin "15"
+			(uuid "bbb13fa8-a271-4218-b945-80cb7dd1a4f4")
+		)
+		(pin "16"
+			(uuid "1aab4df0-cec2-4e56-896b-01f8b3fb535e")
+		)
+		(pin "17"
+			(uuid "76e162b8-7e90-4426-abcd-c9a18e817980")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 7)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 30.48 42.3672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9010aa79-5503-4394-a90d-91ff3ced0372")
+		(property "Reference" "U7001"
+			(at 63.5 32.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 22.86 32.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 42.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 42.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 30.48 42.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 22.352 31.9532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 22.606 57.8612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 22.606 60.4012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "cf9ab833-4909-416e-a0f6-0d9dae8567cd")
+		)
+		(pin "12"
+			(uuid "a5f8563b-7db7-49ef-abc6-47e40cac9064")
+		)
+		(pin "13"
+			(uuid "b896ee2c-5d60-4ea5-9214-5b0cf3d10f92")
+		)
+		(pin "14"
+			(uuid "7cf91b73-8ffc-4f1c-9c49-b4d6915a4a16")
+		)
+		(pin "15"
+			(uuid "efd792f5-080b-4960-a501-1460f88580f9")
+		)
+		(pin "16"
+			(uuid "f9864b04-5c1a-444d-9160-d2ba85cd3189")
+		)
+		(pin "17"
+			(uuid "3f5732f9-b9ad-4c3b-94db-18b8bf99a79a")
+		)
+		(pin "3"
+			(uuid "5f42a0f1-4cc0-4154-b779-5e335e1a0377")
+		)
+		(pin "4"
+			(uuid "bd547116-ce17-4d02-a8c1-a258884b499f")
+		)
+		(pin "5"
+			(uuid "a911757f-6d76-4498-9db9-76df96d3c7df")
+		)
+		(pin "6"
+			(uuid "a2cdbb92-428c-4a49-9754-04d9c44d7dc5")
+		)
+		(pin "1"
+			(uuid "be5aed54-d374-4ad5-ade5-05cb6f241a72")
+		)
+		(pin "8"
+			(uuid "cb2e413f-52e3-4444-b5a3-a0c9aab9ce7f")
+		)
+		(pin "9"
+			(uuid "93851ce8-3dde-4d7a-9bd2-f0b776c17fa4")
+		)
+		(pin "7"
+			(uuid "f0e6b769-1802-498e-80f3-442b80b26dbf")
+		)
+		(pin "44"
+			(uuid "c8e1ad9a-e544-470f-a526-574cca9970e0")
+		)
+		(pin "10"
+			(uuid "22559124-8c8e-447d-a7a6-248189feb0e3")
+		)
+		(pin "19"
+			(uuid "547bf19c-b236-40af-ae10-9e020a3ca4b2")
+		)
+		(pin "20"
+			(uuid "b96b9840-3704-4aa9-825c-e4625bc8c99e")
+		)
+		(pin "39"
+			(uuid "7a6104bd-ef14-4311-84cd-2601641093ac")
+		)
+		(pin "40"
+			(uuid "4c31beca-9fff-4712-9bb6-15fe079063a3")
+		)
+		(pin "25"
+			(uuid "e431366d-bd50-4d74-b97e-e87997e43dc2")
+		)
+		(pin "26"
+			(uuid "0d57c08a-a9b0-40d7-9303-4f61e3532bfd")
+		)
+		(pin "23"
+			(uuid "c8658b3b-48da-40b7-840b-494b5c9c5727")
+		)
+		(pin "35"
+			(uuid "b88e36ee-efc6-441e-a45a-85a2d784632b")
+		)
+		(pin "47"
+			(uuid "8b714523-5723-4725-a91b-0e988e36e564")
+		)
+		(pin "2"
+			(uuid "e5b2b9c8-19fe-4b0a-9369-d6a6fcd3b9f4")
+		)
+		(pin "41"
+			(uuid "37f9de2a-e17d-4a54-b0e3-8b3b5face4a8")
+		)
+		(pin "42"
+			(uuid "4282e4b1-cf26-4d8d-84c7-4c7b348ecd81")
+		)
+		(pin "27"
+			(uuid "9bf08b3a-b9af-4fee-8cc6-704cfbda26e8")
+		)
+		(pin "28"
+			(uuid "3a15bd8a-ec43-4de9-aefb-d0221cee6243")
+		)
+		(pin "24"
+			(uuid "e76d339a-6d2c-42e0-b760-abe9f4bcb929")
+		)
+		(pin "36"
+			(uuid "bac16ffb-ca7b-4f10-8c6a-10f949f53b1d")
+		)
+		(pin "48"
+			(uuid "21471ada-48c4-4bc4-8b34-a701d0f3350f")
+		)
+		(pin "43"
+			(uuid "1255c38a-53ac-44d4-a117-2f528a9af612")
+		)
+		(pin "45"
+			(uuid "4238ea81-fa83-4038-a361-c98cf1fdb6d2")
+		)
+		(pin "46"
+			(uuid "9e41c06f-cca3-4c0d-85df-bbca312ab17d")
+		)
+		(pin "21"
+			(uuid "828b4f7e-7b42-49b8-833b-49e9ef3c13da")
+		)
+		(pin "22"
+			(uuid "b42dbf83-d567-46df-af9c-51e6df4077ba")
+		)
+		(pin "29"
+			(uuid "fc003432-911f-42fe-a5d4-a09248d5991d")
+		)
+		(pin "30"
+			(uuid "bcf42d3f-f37a-4374-813b-1e7d159dc108")
+		)
+		(pin "31"
+			(uuid "a18fd437-490d-44ff-9d68-5459b025c4b3")
+		)
+		(pin "32"
+			(uuid "564cc523-ee1d-434b-b15d-bcfcafa1a3d0")
+		)
+		(pin "33"
+			(uuid "8e8fa7b7-e3ae-48f1-a757-22aca4dae01c")
+		)
+		(pin "34"
+			(uuid "83c87a51-bf33-4f3a-8770-6381dc12593a")
+		)
+		(pin "37"
+			(uuid "bdde09ae-4214-4a76-bc13-5dfcdca523ee")
+		)
+		(pin "38"
+			(uuid "d62418d7-ab17-43ef-83a0-1edbbecb6c8d")
+		)
+		(pin "18"
+			(uuid "c5161457-4385-498e-a745-a9c59266b43e")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 228.6 118.5672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96ca4780-c469-4c02-ba80-bc906de35e62")
+		(property "Reference" "#PWR0157"
+			(at 228.6 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 122.3772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c9914193-9136-4b78-8176-dc6cbad853dc")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 27.94 126.1872 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a5b1763-97c7-4cb4-b08c-6469c2226d93")
+		(property "Reference" "U7001"
+			(at 63.5 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 22.86 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 27.94 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 19.812 115.7732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 22.606 141.6812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 22.606 144.2212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "ff5dc6e8-2864-4341-9098-96202759804a")
+		)
+		(pin "30"
+			(uuid "31d21163-abf6-4d1e-b0c2-7864b275538c")
+		)
+		(pin "31"
+			(uuid "a110fed8-5e5a-4abb-b8a0-7396b1b05974")
+		)
+		(pin "32"
+			(uuid "6a9291d3-05b1-46a1-9130-d319b26cf949")
+		)
+		(pin "33"
+			(uuid "1d28e62b-1b9d-4bfb-b050-e437e698a4bb")
+		)
+		(pin "34"
+			(uuid "111773fb-a7b6-43d6-8208-8134687e5814")
+		)
+		(pin "37"
+			(uuid "927beb9c-cd6e-4588-b75e-3a2397e21de5")
+		)
+		(pin "38"
+			(uuid "2b6b5c0b-aa25-405b-bc33-0a33ad3ef3e8")
+		)
+		(pin "18"
+			(uuid "4043abf2-ec78-4eea-81ae-9a1b361c79b6")
+		)
+		(pin "19"
+			(uuid "8225d454-1c77-42c3-bc18-f22cb7270869")
+		)
+		(pin "20"
+			(uuid "9a0a355f-b6a8-4115-b4ac-4477306d7367")
+		)
+		(pin "39"
+			(uuid "f0a59ccd-7bee-4d63-add7-ccb0e4c9f012")
+		)
+		(pin "40"
+			(uuid "9e5cfd44-c0f4-4550-a7b9-000166534d59")
+		)
+		(pin "41"
+			(uuid "7f11f663-4ab9-4ffd-abbb-d800f809ca13")
+		)
+		(pin "42"
+			(uuid "995385b2-a13c-4f8c-b03c-1ad8f2b1966f")
+		)
+		(pin "43"
+			(uuid "23a5567d-1e3b-4299-975d-f8dd9bdccdbb")
+		)
+		(pin "45"
+			(uuid "398c1eba-b8c5-4861-8f32-7a7b01c3778a")
+		)
+		(pin "46"
+			(uuid "0c731530-5da5-4dd2-aee9-ce234f8de603")
+		)
+		(pin "21"
+			(uuid "60709a6a-f69a-445b-94ed-b98af30df914")
+		)
+		(pin "22"
+			(uuid "9de14c35-63d4-4b46-bd5d-8a23d26479c6")
+		)
+		(pin "25"
+			(uuid "a32d86bb-4d1e-4582-bf9b-dc0283822ace")
+		)
+		(pin "26"
+			(uuid "e92aed44-2f34-4e69-b0a8-99d802b43b42")
+		)
+		(pin "27"
+			(uuid "56ee6835-837a-41d3-95b9-858ff0169e11")
+		)
+		(pin "28"
+			(uuid "71a92697-be8c-4fa6-9992-6b3e0f18b021")
+		)
+		(pin "24"
+			(uuid "ba11032a-e3ce-4bb6-b6fc-48b1359d6583")
+		)
+		(pin "36"
+			(uuid "b5c16c08-0b10-429e-aa1b-bfe9ebb9b031")
+		)
+		(pin "48"
+			(uuid "e4834a1b-3220-4697-adc8-2b95484686d3")
+		)
+		(pin "23"
+			(uuid "fcc1fa26-1d7d-434c-9591-2dc3392350b6")
+		)
+		(pin "35"
+			(uuid "cf6078e1-50a5-45f2-b419-5881a1375ba5")
+		)
+		(pin "47"
+			(uuid "489e50ea-d8c9-4c78-92a0-4a451b4b92e1")
+		)
+		(pin "2"
+			(uuid "3a4e167c-1b93-4539-9ab3-7db7796420ba")
+		)
+		(pin "3"
+			(uuid "ce41c116-d894-4103-9063-1e08f9f9c3b8")
+		)
+		(pin "4"
+			(uuid "af8e827c-e208-4ba4-a1ff-1138c73f4245")
+		)
+		(pin "5"
+			(uuid "0ec0adf9-8eef-4f5f-b5e2-e511936f1800")
+		)
+		(pin "6"
+			(uuid "33f7f4b7-b30f-4fdf-b55c-47dfd95fdbd0")
+		)
+		(pin "1"
+			(uuid "aa5f97d0-fd8c-4b9a-9c4b-fca87b661298")
+		)
+		(pin "8"
+			(uuid "a82d591c-f734-4f73-9fc8-dde06320a996")
+		)
+		(pin "9"
+			(uuid "a5d78b00-b218-4eba-a9a4-4d6cad535dc7")
+		)
+		(pin "7"
+			(uuid "a887739a-212b-4d14-b871-06b6ffc849a0")
+		)
+		(pin "44"
+			(uuid "96177804-3cac-444c-8d13-93f58edc209e")
+		)
+		(pin "10"
+			(uuid "8d50dc71-3c9c-4280-8206-5ed9c7d52292")
+		)
+		(pin "11"
+			(uuid "c7bbb111-6b28-4d63-a979-e7bc0e25c488")
+		)
+		(pin "12"
+			(uuid "a9c708b0-c00b-4728-9ff0-45d8b957e825")
+		)
+		(pin "13"
+			(uuid "08e4cd77-cc81-404e-af93-2e30b23300dc")
+		)
+		(pin "14"
+			(uuid "e5071f53-3b73-4b7d-b12b-e7df8656d36f")
+		)
+		(pin "15"
+			(uuid "c314379b-720b-4d31-97ff-5da52589f247")
+		)
+		(pin "16"
+			(uuid "4c8b0f48-640a-465a-81fc-d456a343b61e")
+		)
+		(pin "17"
+			(uuid "6e0d3f73-aa23-4e02-8833-c37b933f3d26")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 4)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 76.2 98.2472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3db170f-0665-4acb-990e-82a54fb09245")
+		(property "Reference" "#PWR0160"
+			(at 76.2 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 102.0572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "6bba667b-08f3-4c06-8b04-7bceb477b3ce")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 246.38 39.8272 0)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a457eba6-54e8-4a50-ad06-4bf9a21966ba")
+		(property "Reference" "U7001"
+			(at 241.3 32.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 241.3 52.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 246.38 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 238.252 29.4132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 241.046 50.2412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 235.712 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "1458314f-dcd5-4220-ab4f-7a3d4178f141")
+		)
+		(pin "30"
+			(uuid "b23cd2d2-079a-4258-acde-6898df089c62")
+		)
+		(pin "31"
+			(uuid "78e01931-6cc0-4bbc-a0c7-b283e49e16d5")
+		)
+		(pin "32"
+			(uuid "2d7bbfb1-0995-4a28-8be6-28a3414b2456")
+		)
+		(pin "33"
+			(uuid "6d96f509-d776-473a-a731-6038f5de5775")
+		)
+		(pin "34"
+			(uuid "37e05c7e-29c6-4645-88bd-64b095c09039")
+		)
+		(pin "37"
+			(uuid "c5d53e21-b8c8-496c-b52a-fbe2e2670ffe")
+		)
+		(pin "38"
+			(uuid "cf9515f1-4578-4e78-8030-7db62c4a58a8")
+		)
+		(pin "18"
+			(uuid "b28c4176-f14e-44f3-86f1-138d15b70572")
+		)
+		(pin "19"
+			(uuid "d1f51509-640b-448b-bd05-cca0ef61b8f8")
+		)
+		(pin "20"
+			(uuid "a6ad5c97-a38b-432b-bd12-339d9f0a244d")
+		)
+		(pin "39"
+			(uuid "4ad35202-dacd-40a8-831e-9e3a309445dc")
+		)
+		(pin "40"
+			(uuid "feb8138f-4e53-40fb-a699-1c4d2aa7987a")
+		)
+		(pin "41"
+			(uuid "7d6a5985-aa93-4b8b-9e88-eaec71b535fb")
+		)
+		(pin "42"
+			(uuid "06c0017e-ebaa-4c53-8b2a-5d35187131e8")
+		)
+		(pin "43"
+			(uuid "accdb2ac-b0e6-45d2-b689-635ccc942899")
+		)
+		(pin "45"
+			(uuid "02203a21-003c-4257-b1a0-b47cb5fbde0d")
+		)
+		(pin "46"
+			(uuid "0419082a-59ef-4ce9-9b4f-3354e0b707d3")
+		)
+		(pin "21"
+			(uuid "d7896753-4fca-4834-afad-4b08f4a8e8b6")
+		)
+		(pin "22"
+			(uuid "5a40017c-87e7-40a2-ac2d-b0f23a02cf3d")
+		)
+		(pin "25"
+			(uuid "c6da54be-7d20-419e-9637-e62d60e2974b")
+		)
+		(pin "26"
+			(uuid "055f0240-b285-4c0d-aeda-caff63211144")
+		)
+		(pin "27"
+			(uuid "9e170f22-ef8c-4473-97e8-60cbe6adc66f")
+		)
+		(pin "28"
+			(uuid "8b6a3257-ebf3-479a-9bd2-230a3d9856a9")
+		)
+		(pin "24"
+			(uuid "a4eef890-46da-4433-b40b-c7ef6d9aec4e")
+		)
+		(pin "36"
+			(uuid "95001764-e0a5-40f6-a081-d2ef18ac101f")
+		)
+		(pin "48"
+			(uuid "1b7faa85-9d0d-448a-8d60-88b4a58f1cf6")
+		)
+		(pin "23"
+			(uuid "d5da2d29-3866-4aa7-a7b4-d3b789138b8e")
+		)
+		(pin "35"
+			(uuid "b3fc5756-ef57-4e74-916b-d5888dceb8a3")
+		)
+		(pin "47"
+			(uuid "c31e3dde-4477-42a5-96f4-9c8f95ffc347")
+		)
+		(pin "2"
+			(uuid "486ecdb6-a29f-4334-a5fb-64ce98c52e0d")
+		)
+		(pin "3"
+			(uuid "a58bee0f-c941-4f09-ae79-1423f4bcebc4")
+		)
+		(pin "4"
+			(uuid "bed8a554-9a64-4b34-b51a-dd4c8c886831")
+		)
+		(pin "5"
+			(uuid "54c93c17-8c7c-4594-b09d-0caa12468190")
+		)
+		(pin "6"
+			(uuid "dc702abe-8411-46c1-8722-4eda78805fe6")
+		)
+		(pin "1"
+			(uuid "eeb05b15-aecc-4b14-a02f-544f4bee7457")
+		)
+		(pin "8"
+			(uuid "ba32c299-9061-455d-8365-fa0519617aa5")
+		)
+		(pin "9"
+			(uuid "e2b69010-cc75-49a3-97b8-08ecc2fd7e47")
+		)
+		(pin "7"
+			(uuid "1eb92712-a202-4eaa-b248-af30eabbc71e")
+		)
+		(pin "44"
+			(uuid "d0eb22b9-6ec1-4d4e-a383-d18a3a6e82d4")
+		)
+		(pin "10"
+			(uuid "e71f30e6-ec38-476d-b772-e76553faa227")
+		)
+		(pin "11"
+			(uuid "b2c02d4b-60db-48b1-9aa8-86687487d828")
+		)
+		(pin "12"
+			(uuid "a9401d11-052d-45c1-9a9a-f324cea3e2ad")
+		)
+		(pin "13"
+			(uuid "3bda0644-f49b-46f2-9788-662278b90882")
+		)
+		(pin "14"
+			(uuid "5eaceed4-d06f-4654-89ba-5c119cf313ee")
+		)
+		(pin "15"
+			(uuid "bd91b920-45bf-46cf-a80d-7f24dc4fc0a0")
+		)
+		(pin "16"
+			(uuid "88403ee1-e751-4619-93b9-e69ade498897")
+		)
+		(pin "17"
+			(uuid "be95c31d-c90a-434e-b70a-2e273b594417")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 8)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 45.72 151.5872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b18e44-c942-473d-83ba-9577744c3576")
+		(property "Reference" "#PWR0159"
+			(at 45.72 151.5872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 155.3972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 151.5872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 151.5872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 151.5872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "93c7021d-92da-4309-854b-21659c7ea51f")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 213.36 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfa8631b-29c5-4b15-ad08-581c73be35e9")
+		(property "Reference" "#PWR0155"
+			(at 213.36 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 94.4372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "eda0361c-81c7-4225-b469-3fc571437a7c")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_mirrored_CAP0402_pixhawk2.IntLib_2")
+		(lib_id "pixhawk2:root_0_mirrored_CAP0402_pixhawk2.IntLib")
+		(at 205.74 72.8472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfbe48fa-5547-4d70-95c5-3b1b9808f89e")
+		(property "Reference" "C7002"
+			(at 205.74 62.6872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0u1"
+			(at 205.74 75.3872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+			(at 205.74 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0402ZRY5V7BB104"
+			(at 203.708 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 197.234 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-1047-1-ND"
+			(at 208.28 88.0872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0700"
+			(at 203.2 62.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0u1"
+			(at 203.2 62.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "efb226fb-5ff3-40c3-9e6b-91fa648cdc82")
+		)
+		(pin "P$2"
+			(uuid "47fd0817-d420-41bb-8781-48b9b8e594e7")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "C7002")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "C7002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 76.2 128.7272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5772b78-d7cc-4acb-8d67-afbbdf7c1e54")
+		(property "Reference" "R7012"
+			(at 81.28 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220R"
+			(at 68.58 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1/16W 1% 0402 SMD"
+			(at 76.2 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07220RL"
+			(at 70.612 127.4572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 70.612 124.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-220LRCT-ND"
+			(at 66.04 126.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0821"
+			(at 66.04 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "220R"
+			(at 66.04 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "e0c92bac-7f0e-4673-a286-41aa68ce449b")
+		)
+		(pin "P$1"
+			(uuid "0eacc0c6-be91-4544-bcfb-758b6ced35b7")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7012")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 233.68 47.4472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca30804a-fe2e-48b5-8d84-ab301c3b92b3")
+		(property "Reference" "#PWR0163"
+			(at 233.68 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 51.2572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "933318f5-ee38-4986-a4d9-a05cf082e65b")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_mirrored_CAP0402_pixhawk2.IntLib_3")
+		(lib_id "pixhawk2:root_0_mirrored_CAP0402_pixhawk2.IntLib")
+		(at 226.06 72.8472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbd4c911-8324-4396-99f4-34f52c754ae0")
+		(property "Reference" "C7006"
+			(at 226.06 62.6872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0u1"
+			(at 226.06 75.3872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+			(at 226.06 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0402ZRY5V7BB104"
+			(at 224.028 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 217.554 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-1047-1-ND"
+			(at 228.6 88.0872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0700"
+			(at 223.52 62.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0u1"
+			(at 223.52 62.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "bc4b6efc-0ac5-4210-afee-532ee352eb84")
+		)
+		(pin "P$1"
+			(uuid "50ba76ce-a417-43eb-917f-fea1d8766cd2")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "C7006")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "C7006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 30.48 72.8472 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbdc4e66-ebd9-4797-a77b-aef6c33ac2b5")
+		(property "Reference" "U7001"
+			(at 63.5 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 22.86 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 30.48 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 22.352 62.4332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 22.606 85.8012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 22.606 88.3412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "e33a2dc1-de87-4f6c-a907-5575f66e1196")
+		)
+		(pin "13"
+			(uuid "5504ba1e-0d0c-4a81-a901-05710b494183")
+		)
+		(pin "29"
+			(uuid "428f4586-0928-4269-b1e2-22fd4fb766fa")
+		)
+		(pin "30"
+			(uuid "eb9db786-2ca3-422b-87de-4dd243685840")
+		)
+		(pin "31"
+			(uuid "12607e13-9da3-445b-a49d-34ec92f89ea5")
+		)
+		(pin "32"
+			(uuid "b5a01e61-25f2-44c5-ac14-2c98096d36df")
+		)
+		(pin "33"
+			(uuid "21ab2052-7a45-42bc-8fca-1b9a10024dc1")
+		)
+		(pin "34"
+			(uuid "a8cb616d-8169-4b91-8120-267f0e531073")
+		)
+		(pin "37"
+			(uuid "db868d6c-8794-4930-b671-6c94731665a6")
+		)
+		(pin "38"
+			(uuid "184fbb24-6ea4-4309-a990-fbdebc361b8c")
+		)
+		(pin "18"
+			(uuid "a75d7fe6-7e8d-4c26-83f1-dc76465034cb")
+		)
+		(pin "19"
+			(uuid "881060da-c323-4f9b-ac32-8009d11c4073")
+		)
+		(pin "20"
+			(uuid "443094bb-2b97-4f67-bf0e-1d72e0daa5c1")
+		)
+		(pin "39"
+			(uuid "56117877-259f-4bc8-bcde-92eb567b815f")
+		)
+		(pin "40"
+			(uuid "e91a6326-0ad6-4610-84a1-0117d135e4ed")
+		)
+		(pin "41"
+			(uuid "d6f5c7e2-a897-42ae-8fea-74ba4045a571")
+		)
+		(pin "42"
+			(uuid "3a957ff5-8ae5-41ef-a2ec-22473e81d426")
+		)
+		(pin "43"
+			(uuid "cc4b5faf-0b8c-4048-95d0-510917dccd69")
+		)
+		(pin "45"
+			(uuid "e6a8e3ea-f1f8-4255-8ba8-95903ee2f5c6")
+		)
+		(pin "46"
+			(uuid "c9dd16e1-50af-44e6-b489-8683963b4a6b")
+		)
+		(pin "21"
+			(uuid "2babf460-e296-409d-94ae-cae1d2f1ceb0")
+		)
+		(pin "22"
+			(uuid "0b60eb0d-a6b1-4e4b-97d4-dbe79e5fc0d0")
+		)
+		(pin "25"
+			(uuid "450c904d-2183-4b3f-804b-4569576fc959")
+		)
+		(pin "26"
+			(uuid "bcdc767b-38ed-4cc5-ad0f-a89305e4b629")
+		)
+		(pin "27"
+			(uuid "1c81a611-f5f6-485d-a919-bb37529b2b57")
+		)
+		(pin "28"
+			(uuid "4d3384f7-1d0c-4490-afa9-47d62473887c")
+		)
+		(pin "24"
+			(uuid "3053cb54-92f0-42f7-8e4e-05795d168b85")
+		)
+		(pin "36"
+			(uuid "e59dca58-4416-4c62-bbb8-f8a5d9068c7c")
+		)
+		(pin "48"
+			(uuid "1dc53b59-e3cb-4861-bac9-c0ad1bfff9c5")
+		)
+		(pin "23"
+			(uuid "8c6b79f6-8b45-47b4-b8b0-c684ce1eb9b8")
+		)
+		(pin "35"
+			(uuid "76f11f37-ac20-4054-a75a-f908f21aad95")
+		)
+		(pin "47"
+			(uuid "9725a367-2c2e-4c56-affa-0f5eae077345")
+		)
+		(pin "2"
+			(uuid "c91a4329-a674-4e53-bf17-3bd6412b1cdb")
+		)
+		(pin "3"
+			(uuid "4e23acbf-c319-4cb6-ab75-4c2cdf1a653f")
+		)
+		(pin "4"
+			(uuid "3c2cd01b-275a-4cc6-a5f9-d4b123da7d33")
+		)
+		(pin "5"
+			(uuid "c3cf6c9a-6cfd-425d-8d24-848a8e959d87")
+		)
+		(pin "6"
+			(uuid "81dffbe3-8a2d-45ea-a90c-d532ef52add3")
+		)
+		(pin "1"
+			(uuid "7fe90415-c5e2-43c1-a322-5a68ae5a215b")
+		)
+		(pin "8"
+			(uuid "cddb651d-60bd-4c37-b927-6591ab357192")
+		)
+		(pin "9"
+			(uuid "df39db76-0bc3-4682-b47f-4ad6e52f3d8f")
+		)
+		(pin "7"
+			(uuid "91c0dd4c-0b55-47d5-b9f6-25bf5e0641ce")
+		)
+		(pin "44"
+			(uuid "6026419b-646b-4311-b2c1-f81525e9cf05")
+		)
+		(pin "10"
+			(uuid "14de28a4-07a7-4092-ad3e-60402225ccde")
+		)
+		(pin "11"
+			(uuid "ba1f44bc-ee0b-4b98-a33b-4dd9c1c7a002")
+		)
+		(pin "14"
+			(uuid "9dcee25e-c628-45a2-8442-8f0936b4ad66")
+		)
+		(pin "15"
+			(uuid "461d65df-b053-409e-915a-898949dc5f7a")
+		)
+		(pin "16"
+			(uuid "ad5df319-dcb8-4609-b142-30d5a2d8d426")
+		)
+		(pin "17"
+			(uuid "0cc83385-7b64-48a7-8a4d-160df0b2c3de")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 2)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_OSCILLATOR-3.2X2.5_pixhawk2.SCHLIB")
+		(at 205.74 116.0272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce02be74-01dc-4349-82a6-4d615bdc1edf")
+		(property "Reference" "X7001"
+			(at 185.42 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Crystal Oscillator in 3.2x2.5 SMD"
+			(at 205.74 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRYSTAL 24MHZ 8PF SMD"
+			(at 205.74 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 200.406 104.8512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "644-1052-1-ND"
+			(at 185.42 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0708"
+			(at 185.42 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "NX3225SA-24.000MHZ-STD-CSR-1"
+			(at 185.42 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "24MHz"
+			(at 185.42 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed171dcf-c6cc-484e-bddf-dd15d508c8a4")
+		)
+		(pin "1"
+			(uuid "b0942ff0-b0d2-40c1-936c-1a0e8800ecb8")
+		)
+		(pin "3"
+			(uuid "1df09bc9-d9df-4019-aff9-c8fce056a046")
+		)
+		(pin "4"
+			(uuid "3fc7c397-b3ee-46ef-bcfa-a4e967926c1b")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "X7001")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "X7001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IO_FMU3_REV_C-altium-import:GND_BAR")
+		(at 233.68 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e18c4255-107e-4532-b60b-4b00ec1afb70")
+		(property "Reference" "#PWR0153"
+			(at 233.68 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 94.4372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "6a6c297c-21df-4524-822e-933ae9ca60e8")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_3_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 223.52 156.6672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4ce9c68-d8f4-4e41-8f75-36e9adea5383")
+		(property "Reference" "R7001"
+			(at 220.98 159.2072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 220.98 149.0472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1/16W 1% 0402 SMD"
+			(at 223.52 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0710KL"
+			(at 222.25 151.0792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 219.964 151.0792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-10.0KLRCT-ND"
+			(at 228.6 166.8272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0800"
+			(at 220.98 147.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10K"
+			(at 220.98 147.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "1f160b2b-3225-4eee-b3ef-2e867242c95a")
+		)
+		(pin "P$1"
+			(uuid "b8e6b649-dcae-4971-b9e1-ae113d2240ad")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7001")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_CAP0402_pixhawk2.IntLib")
+		(at 220.98 121.1072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f74bfb09-1076-4625-b571-05acadea2742")
+		(property "Reference" "C7005"
+			(at 219.202 118.4402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "8p"
+			(at 219.202 123.5202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 8PF 50V C0G 0402"
+			(at 220.98 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C1005C0G1H080C"
+			(at 218.948 115.5192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 212.474 115.5192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "445-4890-1-ND"
+			(at 210.82 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0710"
+			(at 210.82 115.5192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "8p"
+			(at 210.82 115.5192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "2b68218f-5114-4e5c-9c5b-4f3af38a7a29")
+		)
+		(pin "P$2"
+			(uuid "33cf8cf7-8c4f-4fe5-8662-7746ab1ae013")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "C7005")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "C7005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_mirrored_CAP0402_pixhawk2.IntLib_1")
+		(lib_id "pixhawk2:root_0_mirrored_CAP0402_pixhawk2.IntLib")
+		(at 213.36 72.8472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa90f94a-3657-42d4-95f9-43d0a67ba139")
+		(property "Reference" "C7003"
+			(at 213.36 62.6872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0u1"
+			(at 213.36 75.3872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V Y5V 0402"
+			(at 213.36 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0402ZRY5V7BB104"
+			(at 211.328 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 204.854 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-1047-1-ND"
+			(at 215.9 88.0872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0700"
+			(at 210.82 62.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0u1"
+			(at 210.82 62.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "fad12b39-b043-4916-b7c5-7c2590ac11d5")
+		)
+		(pin "P$1"
+			(uuid "57265613-07c0-4957-8708-af3128daa855")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "C7003")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "C7003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 109.22 34.7472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fad0f0a5-5d6f-4409-b69d-39bcc8eeb839")
+		(property "Reference" "R7013"
+			(at 105.664 33.5022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220R"
+			(at 105.664 38.3032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 34.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 34.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1/16W 1% 0402 SMD"
+			(at 109.22 34.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07220RL"
+			(at 103.632 33.4772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 103.632 30.9622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-220LRCT-ND"
+			(at 116.078 33.2232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0821"
+			(at 103.632 30.6832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "220R"
+			(at 103.632 30.6832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "bf071822-8886-429e-9505-7204b8e7062b")
+		)
+		(pin "P$1"
+			(uuid "dab0907a-f831-4c1c-91cb-1708cf94ffef")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7013")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_mirrored_STM32F10XCXT6_pixhawk2.SCHLIB")
+		(at 30.48 149.0472 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd68523a-85de-4b5d-b627-3cb64f9b519d")
+		(property "Reference" "U7001"
+			(at 63.5 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ST STM32F101/103 48pin LQFP"
+			(at 22.86 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MCU 32BIT ARM 64K FLASH 48LQFP"
+			(at 30.48 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 22.352 138.6332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "497-10499-ND"
+			(at 22.606 156.9212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "EMC0842"
+			(at 22.606 159.4612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "2c735b89-b4b2-4ca6-bd53-e76803d5bedc")
+		)
+		(pin "30"
+			(uuid "38456360-fa08-44a4-aabd-7e9acc9d93f1")
+		)
+		(pin "31"
+			(uuid "a683e1cf-9957-4235-8cde-a1f36247f51a")
+		)
+		(pin "32"
+			(uuid "d9f2d3fc-b3e6-4b32-b522-ab9d1040e2e6")
+		)
+		(pin "33"
+			(uuid "d0e4201d-90f0-452b-83f9-5958d8898bda")
+		)
+		(pin "34"
+			(uuid "03431632-0a7f-4282-aba7-cb2d942156b6")
+		)
+		(pin "37"
+			(uuid "23354dcc-8aee-4288-9145-2715a574daa0")
+		)
+		(pin "38"
+			(uuid "ffca90e7-13cf-4b66-a7ad-519ee6d17243")
+		)
+		(pin "18"
+			(uuid "f14fe325-3644-42d4-a774-f312701bd26e")
+		)
+		(pin "19"
+			(uuid "21dded96-519d-4d22-ae21-d524440fce19")
+		)
+		(pin "20"
+			(uuid "549de54e-15fc-4589-b277-5e8d260d9fc6")
+		)
+		(pin "39"
+			(uuid "c43c5631-bcd2-4926-a631-9d396cb573a2")
+		)
+		(pin "40"
+			(uuid "8e1647d6-49d8-46b2-a388-abc60ebc6288")
+		)
+		(pin "41"
+			(uuid "42a70a64-0cb4-46bc-9e06-bd3fa523d7cb")
+		)
+		(pin "42"
+			(uuid "bc15a501-74ad-4d71-b006-737d530d0296")
+		)
+		(pin "43"
+			(uuid "15944c6c-8f89-4fa1-a15b-1ba5a6ccd073")
+		)
+		(pin "45"
+			(uuid "bfc999f9-76f6-41be-bf84-d088fca59923")
+		)
+		(pin "46"
+			(uuid "d52fa0fe-67e2-4a0c-9233-9010b9d88744")
+		)
+		(pin "21"
+			(uuid "08e7471a-e352-457e-bd1a-e626b9f7eb80")
+		)
+		(pin "22"
+			(uuid "0111cce1-2ffc-461f-93c0-2877a91cdf37")
+		)
+		(pin "25"
+			(uuid "30e841e2-217d-4cac-b177-ebb08113edda")
+		)
+		(pin "26"
+			(uuid "1522616b-f28e-4448-a90c-32be3e911452")
+		)
+		(pin "27"
+			(uuid "98034a48-93df-4ef6-80af-04df273982e6")
+		)
+		(pin "28"
+			(uuid "f15a40ff-d12d-4bd1-a029-c0690d5ebd5c")
+		)
+		(pin "24"
+			(uuid "147870de-7731-471d-8f79-39165c607619")
+		)
+		(pin "36"
+			(uuid "5a5cecb7-8152-4591-bd8e-c8b585504795")
+		)
+		(pin "48"
+			(uuid "376e473e-8f82-44d4-bfaf-8c4c98c79428")
+		)
+		(pin "23"
+			(uuid "57f9f121-2c07-4993-a1b3-8f11ef7054a0")
+		)
+		(pin "35"
+			(uuid "537f32f1-78f0-4ce8-bf45-079171a8adb8")
+		)
+		(pin "47"
+			(uuid "23a3e264-8d66-47ab-958f-bb340b9a54d9")
+		)
+		(pin "2"
+			(uuid "87d788b7-95f3-4433-9bc7-fcbc8115e95c")
+		)
+		(pin "3"
+			(uuid "62fb569f-407c-46ed-b9e3-b147f621e6d1")
+		)
+		(pin "4"
+			(uuid "527c5bee-6e51-459e-8fa4-06563d8b578d")
+		)
+		(pin "5"
+			(uuid "db471591-9b8f-4837-a2af-a6e93b060124")
+		)
+		(pin "6"
+			(uuid "1960c377-632e-4ad4-bfcc-c69c979622d7")
+		)
+		(pin "1"
+			(uuid "086acc79-3a10-42ac-a762-5fac8f655b80")
+		)
+		(pin "8"
+			(uuid "b920d1ec-f9b1-48f9-9a6b-3eae13d7241c")
+		)
+		(pin "9"
+			(uuid "58678a0a-8cd2-4363-920e-869719919fa0")
+		)
+		(pin "7"
+			(uuid "34e574a1-5ac1-4bde-a20a-05b94b2e920e")
+		)
+		(pin "44"
+			(uuid "a9f3bdfe-8fe4-45e9-b1d0-a3a0d2810e4d")
+		)
+		(pin "10"
+			(uuid "67ea65a1-a0ed-473a-a829-8a9b41a00d83")
+		)
+		(pin "11"
+			(uuid "cc439f6d-f96e-4061-93f0-e67477f410bc")
+		)
+		(pin "12"
+			(uuid "63851a16-fe5a-4afd-ab24-71503e2dd429")
+		)
+		(pin "13"
+			(uuid "b2823b4f-763c-4dbc-919a-a2ebd0fd0778")
+		)
+		(pin "14"
+			(uuid "288e523f-e0b9-4ca9-b685-5ea098de5b84")
+		)
+		(pin "15"
+			(uuid "790b51b7-e2fd-4fa2-a504-c254f5377d69")
+		)
+		(pin "16"
+			(uuid "71f4b730-0e05-46b3-b665-ca96a8ca9eb2")
+		)
+		(pin "17"
+			(uuid "ac891fa2-21de-4074-a923-72e9723c2453")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "U7001")
+					(unit 6)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "U7001")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pixhawk2:root_0_RESISTOR0402-RES_pixhawk2.IntLib")
+		(at 58.42 105.8672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdf50c97-e16a-4a5d-bdc8-04fb7afeaadd")
+		(property "Reference" "R7010"
+			(at 55.88 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220R"
+			(at 63.5 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 220 OHM 1/16W 1% 0402 SMD"
+			(at 58.42 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07220RL"
+			(at 52.832 104.5972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 52.832 102.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "311-220LRCT-ND"
+			(at 38.1 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3DR_PARTNO" "ECM0821"
+			(at 38.1 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "220R"
+			(at 38.1 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "82c04251-6190-4310-ac14-ec8ede9206be")
+		)
+		(pin "P$1"
+			(uuid "e82543b8-29de-4da4-889e-95a44c1b220a")
+		)
+		(instances
+			(project ""
+				(path "/0560f2c5-3630-4def-8cec-cc4e8cbf7b9e/4bdbcbb5-7ae8-453d-b862-6b49905da3a0"
+					(reference "R7010")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/5c52ed94-5ecd-46f4-b5cf-40b2addbb4b1"
+					(reference "R7010")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
